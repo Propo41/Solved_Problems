@@ -10,7 +10,7 @@ int main()
 {
     FASTIO;
     int a,b,c,d,t;
-
+    
     vector <int> sameNum(5001,0);
 
     for(int i=11; i<=5000; i++)
