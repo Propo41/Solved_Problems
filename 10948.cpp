@@ -41,7 +41,7 @@ int main()
     while( (cin >> n), n)
     {
         cout << n << ":" << endl;
-        for(int p1=2; p1 <= n ; p1++)
+        for(int p1=2; p1 <= n ; p1++) // p1 <= n/2 -- would reduce the time complexity from 0.290 to 0.150
         {
             int p2 = n - p1;
 
